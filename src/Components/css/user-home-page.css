@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.user-home-page-header nav {
+  padding-top: 2%;
+  background-image: url("../image/header-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+}
+.userName {
+  text-align: right;
+}
+.error {
+  text-align: center;
+}
+
+.user-home-page-header nav p {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  margin-top: 2%;
+}
+.user-home-page-header h1 {
+  color: white;
+  float: center;
+}
+.user-home-page-header nav > * {
+  align-items: center;
+}
+.user-home-page-header .col-sm-4 > * {
+  text-align: center;
+}
+.user-home-page-header button {
+  width: 180px;
+}
+.dropdown-menu {
+  width: 180px;
+}
+
+.zomato-service .card {
+  margin-top: 20px;
+  border-radius: 60px;
+}
+.zomato-service .card img {
+  border-radius: 60px;
+  max-height: 200px;
+}
+.zomato-service .card:hover {
+  box-shadow: 3px 5px #888888;
+  transform: scale3d(1.03, 1.03, 1.03);
+}
+
+.city-hotel {
+  text-align: center;
+  margin-top: 2%;
+}
+.hotel-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  font-family: "New Tegomin", serif;
+}
+
+.hotel-container a {
+  text-decoration: none;
+  color: black;
+}
+.hotel-container a:hover {
+  border: 2px sold solid;
+  color: black;
+}
+.hotel-container img {
+  height: 200px;
+}
+.hotel-container .card {
+  max-width: 350px;
+  max-height: 450px;
+  margin: 5px auto;
+}
+.hotel-container .card:hover {
+  border: 2px sold black;
+}
+.hotel-img img {
+  padding-top: 20px;
+  min-width: 100vw;
+  max-height: 600px;
+}
+.hotel-name {
+  text-align: center;
+}
+ul li {
+  list-style: none;
+}
+.food-category-title {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.food-item {
+  margin: 20px;
+}
+.food-item img {
+  border-radius: 25px;
+  height: 100%;
+  float: right;
+}
+
+.food-item button {
+  width: 100px;
+}
+
+@media only screen and (max-width: 520px) {
+  .user-home-page-header .col-sm-4 > * {
+    margin-top: 30px;
+  }
+  .hotel-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .hotel-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media only screen and (max-width: 628px) {
+  .card-1 {
+    text-align: center;
+  }
+  .card-3,
+  .card-2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 628px) {
+  .hotel-container {
+    grid-gap: 10px;
+    grid-template-columns: auto;
+  }
+  .hotel-container .card {
+    width: 80%;
+    margin: 5px auto;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .food-item img {
+    float: left;
+  }
+}
